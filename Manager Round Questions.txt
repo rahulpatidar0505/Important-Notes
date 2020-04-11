@@ -1,0 +1,91 @@
+Assessing the Performance of Your QA and Testing Team ?
+
+I often hear people talking about about Performance Metrics and Key Performance Indicators, but how to define quality engineering productivity exactly? What is it and how to measure? And what are some best practices to increase?
+
+How can I evaluate the performance, productivity and improvement of a Quality Engineer?
+Is it depending on time spend at the workplace, number of bugs found, certifications..etc. or something like that?
+
+
+QA and testing teams are increasingly faced with strict deadlines and pressure to deliver on releases faster.
+
+1.     Measure the number of bugs found per release
+
+2.     Reviewed Requirements. Number of automated test cases created and executed and Covered Requirements
+
+3.     Ratio of bugs being reported to bugs being fixed (quality bugs over ‘invalid’ bugs)
+
+4.     Number of bugs found in staging vs. production
+
+5.     Severity of bugs found in production
+
+6.     Number of bugs sent back for clarification (waste of one’s time)
+
+7.     Number of bugs over time (not just for one build, but overall – shows a broader understanding of mitigating issues early on)
+
+8.     Time to execute a test cycle
+
+9.     Turnaround time for fixing issues (quickness is necessary to keep the project moving forward)
+
+10.   Number of regression test gaps.
+
+managers walk around in the developer pit and talk to people, listen to people, and get a sense of how the team is functioning on a regular basis. This will tell a manager more about his people's performance than any stack-ranked arbitrary metric.
+
+===========================================================================================================================================
+
+
+how to decide which test cases to automate using selenium ?
+
+You can get the most benefit out of your automated testing efforts by automating:
+
+Repetitive tests that run for multiple builds.
+Tests that tend to cause human error.
+Tests that require multiple data sets.
+Frequently used functionality that introduces high risk conditions.
+Tests that are impossible to perform manually.
+Tests that run on several different hardware or software platforms and configurations.
+Tests that take a lot of effort and time when manual testing.
+Good to execute the cross-platform test cases (like different OS, browsers etc.)
+ROI – Return on Investment – It is a calculation of benefits in terms of cost saving, increased efficiency and quality)
+Test case executed with different set of data
+Test case executed with different browser
+Test case executed with different environment
+Test case executed with complex business logic
+Test case executed with different set of users
+Test case Involves large amount of data
+Test case has any dependency
+Test case requires Special data
+
+==========================================================================================================================================
+
+how to review the automation code ?
+
+Should follow test case standardization.
+Follow logging/validation standard.
+Assertion should be there in code.
+Always write dynamic xpath.
+All the test cases should be independant to each other
+All the pages should be independant to each other
+Don't use hardcoded values.
+Use good level of abstraction
+Always use dynamic waits.
+Try to run test case multiple times ,so you can check the stability.
+Dry run to check functionaliy.
+
+
+code optimization
+code duplication
+use oops concepts
+do validation, if required
+peer review
+Team review
+===========================================================================================================================================
+
+What to do when defect is found in production but not during the QA phase?
+
+Check for impact on the system. And if is of high severity and high priority, call for a hot fix.
+Do a retrospective meeting and find the root cause for the defect and also make sure that we have test scenario's and test cases ready for regression.
+Perform a quick regression on QA Environment for the hot fix and make sure that build is stable and no new defects introduced because of the defect.
+QA gives approval for moving build to PROD Environment and performs regression testing and signoff for the release.
+
+==========================================================================================================================================
+

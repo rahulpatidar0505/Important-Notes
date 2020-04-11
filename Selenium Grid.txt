@@ -1,0 +1,23 @@
+Selenium Grid Architecture:
+Selenium Grid has a Hub and Node Architecture.
+
+The Hub:
+
+The hub is the central point where you load your tests.
+There should only be one hub in a grid.
+
+The Nodes:
+
+Nodes are the Selenium instances that will execute the tests that you loaded on the hub.
+
+~~~ for HUB, use this command:
+
+java -jar selenium-server-standalone-3.13.0.jar -role hub
+
+~~~ for Node, use this command:
+
+java -Dwebdriver.chrome.driver="./SeleniumPractice/Drivers/chromedriver.exe" -jar selenium-server-standalone-3.13.0.jar -role node -hub http://192.168.0.102:4444/grid/register
+
+E:\SeleniumAndAPITestingWorkSpace\SeleniumPractice\Drivers\chromedriver.exe
+
+control c - termination

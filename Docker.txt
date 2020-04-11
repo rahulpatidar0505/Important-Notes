@@ -1,0 +1,17 @@
+
+What is Docker ?
+
+Docker is the world’s leading software container platform
+
+Docker makes the process of application deployment very easy and efficient and resolves a lot of issues related to deploying applications
+
+Docker is a tool designed to make it easier to deploy and run applications by using containers
+
+Docker gives you a standard way of packaging your application with all its dependencies in a container
+
+Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+
+Understand Docker with analogy of the Shipping industry
+
+How a real world problem was resolved using containers
+

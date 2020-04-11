@@ -1,0 +1,41 @@
+Tell me about yourself ?
+
+Thanks for asking this question, My name is Rahul Patidar. I am from Indore, ihave completed y gratuation in 2014 and after that i joined Infosys, where  i worked for 3 year, currently i am working in Accenture since last 1.3 year where my role is I am performing as an Automation engineer and my responsibilities are need to write automation script on the basis of buisness requirment.So when will get the requirment from the client side, first will analyze and than start writing script for the same.
+I am also responsible to update and maintain framework whenever it is required.
+At the end of the day need to send the status of the day to the onsite co-ordinator as well as to the leads in offshore.
+Apart from the this i am also learning backend/API testing using postman and Rest Assured.
+
+
+Ques - Why do you want to work here?
+According to me changes are necessary for everyone to enhance your skills, knowledge and for personal and financial growth. And this is the good platform where I can learn and gain more.
+
+
+Ques - What are your strength?
+I am flexible and adaptive,I can easily adjust in new situation, new environment with new people.
+Flexibility- can work in any team
+Persistence –complete our work in given deadline.
+Love to explore the things.
+
+Ques - Weakness?
+Sometimes I feel bored doing same thing again and again means Bit lazy about which I am not interested like submit a timesheet, give feedback etc.
+and also i can share my knowledge to the team in a proper way but in designing a presentation,i am not good.
+
+Ques - Why should I hire you?
+Company is looking for the selenium profile and with reference to my experience, I satisfy all the requirement for this job, am sincere with my work and would never let you down in anyway. I promise you will never regret for the decision to appoint me in your organization.
+
+Ques - Tell me about this company?
+
+Ques - Why you are looking for a job change?
+Relate to career goal am thankful to my previous organization because I have learnt a lot of things from there. According to me changes are necessary for everyone to enhance your skills, knowledge and for personal and financial growth. And this is the good platform where I can learn and gain more.
+
+Ques - What are your salary requirement?
+
+Ques - What are your career goal?
+
+Ques - Do you have any question to ask me?
+Express thanks
+
+Ques - What you mention in Status mail?
+Whatever work I completed including Test case writing, execution their status and risks.
+What are the issues with their Risks?
+Defects and the reason
