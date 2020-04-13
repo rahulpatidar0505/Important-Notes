@@ -1,0 +1,132 @@
+What is Docker ?
+
+Docker is the world’s leading software container platform
+
+Docker makes the process of application deployment very easy and efficient and resolves a lot of issues related to deploying applications
+
+Docker is a tool designed to make it easier to deploy and run applications by using containers
+
+Docker gives you a standard way of packaging your application with all its dependencies in a container
+
+Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. 
+
+Understand Docker with analogy of the Shipping industry
+
+How a real world problem was resolved using containers
+
+
+Basic
+: docker version
+: docker -v
+: docker infod
+: docker --help
+: docker login
+————————————
+Images
+: docker images
+: docker pull
+: docker rmi
+————————————
+Containers
+: docker ps
+: docker run
+: docker start
+: docker stop
+————————————
+System
+: docker stats
+: docker system df
+: docker system prune
+
+
+
+
+What are Images
+Docker Images are templates used to create Docker containers
+Container is a running instance of image
+
+Where are Images Stored
+Registries (e.g. docker hub)
+Can be stored locally or remote
+
+: docker images --help
+: docker pull image
+: docker images
+: docker images -q
+: docker images -f “dangling=false”
+: docker images -f “dangling=false” -q
+
+: docker run image
+: docker rmi image
+: docker rmi -f image
+
+: docker inspect
+: docker history imageName
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What are Containers:
+Containers are running instances of Docker Images
+
+
+COMMANDS
+: docker ps
+: docker run ImageName
+: docker start ContainerName/ID
+: docker stop ContainerName/ID
+
+: docker pause ContainerName/ID
+: docker unpause  ContainerName/ID
+
+: docker top ContainerName/ID
+: docker stats ContainerName/ID
+
+: docker attach ContainerName/ID
+
+: docker kill ContainerName/ID
+: docker rm ContainerName/ID
+
+: docker history ImageName/ID
+
+
+References:
+https://www.google.co.in/search?rlz=1...
+
+https://docs.docker.com/engine/refere...
+_____________________________________________________
+
+Notes
+
+
+A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings.
+
+Features of Containers:
+
+Are lightweight
+
+Fewer resources are used
+
+Booting of containers is very fast
+
+Can start, stop, kill, remove containers easily and quickly
+
+Operating System resources can be shared within Docker
+
+
+
+Containers run on the same machine sharing the same Operating system Kernel, this makes it faster
+
+You can use the command
+docker container create
+to create a container in stopped state
