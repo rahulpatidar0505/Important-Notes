@@ -1,0 +1,166 @@
+Sorting Array:
+
+
+public class SortingArray {
+	public static void main(String[] args) {
+		int[] arr = new int[] { -1, 6, 8, 7, 4, 312, 78, 54, 9, 12, 0, 100, 89, 74 };
+
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = i + 1; j < arr.length; j++) {
+				int tmp = 0;
+				if (arr[i] > arr[j]) {
+					tmp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = tmp;
+
+				}
+			}
+			System.out.println(arr[i]);
+		}
+	}
+}
+
+==============================================================================================================
+
+Remove Duplicate String:
+
+public class RemoveDuplicateString {
+
+	public static void main(String[] args) {
+		String input = "Welcome to Java Session Java Session Session Java"; // Input String
+		String[] words = input.split(" "); // Split the word from String
+		for (int i = 0; i < words.length; i++) // Outer loop for Comparison
+		{
+			if (words[i] != null) {
+
+				for (int j = i + 1; j < words.length; j++) // Inner loop for Comparison
+				{
+
+					if (words[i].equals(words[j])) // Checking for both strings are equal
+					{
+						words[j] = null; // Delete the duplicate words
+					}
+				}
+			}
+		}
+		for (int k = 0; k < words.length; k++) // Displaying the String without duplicate words
+		{
+			if (words[k] != null) {
+				System.out.println(words[k]);
+			}
+
+		}
+	}
+}
+=========================================================================================================================
+
+public class PrimeNoBwTwoNumber {
+
+	public static void main(String[] args) {
+		int i = 0;
+		int num = 0;
+		String primeNumbers = "";
+
+		for (i = 1; i <= 100; i++) {
+			int counter = 0;
+			for (num = i; num >= 1; num--) {
+				if (i % num == 0) {
+					counter = counter + 1;
+				}
+			}
+			if (counter == 2) {
+				// Appended the Prime number to the String
+				primeNumbers = primeNumbers + i + " ";
+			}
+		}
+		System.out.println("Prime numbers from 1 to 100 are :");
+		System.out.println(primeNumbers);
+	}
+}
+=====================================================================================================================
+
+package demo;
+
+public class FindPrimeNumber {
+
+	public static void main(String args[]) {
+		int num = 19; 
+		int count = 0;
+
+		for (int i = 2; i < num; i++) {
+			if (num % i == 0) {
+				count++;
+				break;
+			}
+		}
+		if (count == 0) {
+			System.out.print("This is a Prime Number");
+		} else {
+			System.out.print("This is not a Prime Number");
+		}
+	}
+}
+
+======================================================================================================================
+
+package demo;
+
+public class FibonnociSeries {
+
+	public static void main(String[] args) {
+
+		int count = 7, num1 = 0, num2 = 1;
+		System.out.print("Fibonacci Series of " + count + " numbers:");
+
+		for (int i = 1; i <= count; ++i) {
+			System.out.print(num1 + " ");
+
+			int sumOfPrevTwo = num1 + num2;
+			num1 = num2;
+			num2 = sumOfPrevTwo;
+		}
+	}
+}
+===================================================================================================================
+
+package java1;
+
+public class SwapOfTwoNo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=3;
+		int b=5;
+		System.out.println(a);
+		System.out.println(b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println(a);
+		System.out.println(b);
+	}
+
+}
+================================================================================================
+
+package java1;
+
+public class SwapOfTwoNo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=3;
+		int b=5;
+		int c;
+		System.out.println(a);
+		System.out.println(b);
+		c=a;
+		a=b;
+		b=c;
+		System.out.println(a);
+		System.out.println(b);
+	}
+
+}
+======================================================================================================
+

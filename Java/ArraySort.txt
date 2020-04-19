@@ -1,0 +1,39 @@
+package interview.programs;
+
+import java.util.Arrays;
+
+public class ArraySort 
+{
+	public static void main(String[] args) 
+	{
+//		int myArray[] = {15,12,11,14};
+//		Arrays.sort(myArray);
+//		int greater;
+//		System.out.println("Sorting Using Arrays.Sort() Method ");
+//		for(int i=0;i<myArray.length;i++)
+//		{	
+//			System.out.println(myArray[i]);
+//		}
+		
+	//============================================================	
+		System.out.println("My Sorting  ");
+		int a[] = {22,11,44,33};
+		for(int i=0;i<a.length;i++)
+		{
+			for(int j=i+1;j<a.length; j++)
+			{
+				if(a[i]>a[j])
+				{
+					a[i] = a[i] + a[j];
+					a[j] = a[i] - a[j];
+					a[i] = a[i] - a[j];
+				}
+			}
+		}
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
+		
+	}
+}

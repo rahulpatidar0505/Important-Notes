@@ -1,0 +1,264 @@
+package com.test.cases;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+import java.util.regex.Pattern;
+
+import org.apache.commons.lang3.ArrayUtils;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class TempPrograms {
+	
+	// Top 22 Java Interview Programs
+	// Author - Amol Koshti [whatsapp 9762542122]
+	
+public static void main(String[] args) {
+	
+	//-------------- 01 - Check if number is palindrome ----------------------------------
+//	String s1 = "madam";
+//	StringBuilder sb = new StringBuilder(s1);
+//	StringBuilder temp = sb.reverse();
+//	String s2 = temp.toString();
+//	if(s1.equals(s2))
+//		System.out.println("String is palindrome");
+//	else
+//		System.out.println("String is NOT palindrome");
+	//-------------- 02 -  Reverse a number -----------------------------------------------
+//	int n =12345, rev=0;
+//	while(n!=0){
+//		int r = n%10;
+//		n = n/10;
+//		rev = rev*10+r;
+//	}
+//	System.out.println("Reversed = "+rev);  
+	//-------------- 03 -  Reverse string by Words  ----------------------------------------
+//	String s = "life is beautiful enjoy it";
+//	String[] parts = s.split(" ");
+//	for(int i=parts.length-1;i>=0;i--)
+//		System.out.print(parts[i]+" ");
+	//-------------- 04 -  Reverse string by character  ------------------------------------
+//	String s = "life is beautiful enjoy it";
+//	for(int i=s.length()-1;i>=0;i--)
+//		System.out.print(s.charAt(i));
+	//-------------- 05 -  Convert First Character of String to UpperCase  -----------------
+//	String s = "life is beautiful enjoy it";
+//	String[] parts = s.split(" ");
+//	for(int i=0;i<parts.length;i++){
+//		char[] ch = parts[i].toCharArray();
+//		for(int j=0;j<ch.length;j++){
+//			ch[0] = Character.toUpperCase(ch[0]);
+//			System.out.print(ch[j]);
+//		}
+//		System.out.print(" ");
+//	}
+	//-------------- 06 -  Count of Characters in String (Incomplete)-----------------------
+	// Create an array of size 256 i.e. ASCII_SIZE 
+//	String s = "abbcccdddd";
+//	char[] ch = s.toCharArray();
+//	
+//	for(int i=0;i<ch.length;i++){
+//		int counter=0;
+//		char c=s.charAt(i);
+//		for(int j=0;j<s.length();j++){
+//			if(c==ch[j]){
+//				counter++;
+////				ch[j] = '\u0000'; // OR ch[j] = 0; 
+//			}
+//		}
+//		if(counter>0)
+//		System.out.println(c+" "+counter);
+//	}
+	//-------------- 07 -  Swap two numbers without using 3rd ------------------------------
+//	int a=100, b=300;
+//	a=a+b;
+//	b=a-b;
+//	a=a-b;
+//	System.out.println("a="+a);
+//	System.out.println("b="+b);
+	//-------------- 08 -  Sort Integer Array in ASC/DSC -----------------------------------
+//	int[] a = new int[]{5,4,1,2,3};
+//	int temp = 0;
+//	for(int i=0;i<a.length;i++){
+//		for(int j=i+1;j<a.length;j++){
+//			if(a[i]>a[j]){
+//				temp = a[i];
+//				a[i] = a[j];
+//				a[j] = temp;
+//			}
+//		}
+//	}
+//	for(int i=0;i<a.length;i++)
+//		System.out.println(a[i]+" ");
+	//-------------- 09 -  Program to Generate random number -------------------------------
+//	Random r = new Random();
+//	int n = r.nextInt();
+//	System.out.println(n);
+	//-------------- 10 -  Check Number of Vowels in String  -------------------------------
+//	String s = "life is beautiful enjoy it";
+//	char[] letters = s.toCharArray();
+//	int count = 0;
+//	for(char c : letters){
+//		switch(c){
+//			case 'a' :
+//			case 'e' :
+//			case 'i' :
+//			case 'o' :
+//			case 'u' :
+//				count++;
+//				break;
+//				default:
+//		}
+//	}
+//	System.out.println("Total Vowels in String = "+count);
+	//-------------- 11 -  First Non-Repeated Character in String --------------------------
+//		String s = "aabbbcdddd";
+//		char ch[] = s.toCharArray();
+//		for(char c : ch){
+//			if(s.indexOf(c)==s.lastIndexOf(c)){
+//				System.out.println("First non-repeat char = "+c);
+//				break;
+//			}
+//		}
+	//-------------- 12 -  Find If String is Palindrome  -----------------------------------
+//	String s1 = "madam";
+//	StringBuilder sb = new StringBuilder(s1);
+//	StringBuilder temp = sb.reverse();
+//	String s2 = temp.toString();
+//	if(s1.equals(s2))
+//		System.out.println("String is Palindrome");
+//	else
+//		System.out.println("String is NOT Palindrome");
+	//-------------- 13 -  Find 1st & 2nd Greater Number from Array  -----------------------
+//	int[] a = {1,2,3,4,5,6,7,8,9};
+//	int g1=0,g2=0;
+//	for(int i=0;i<a.length;i++){
+//		if(a[i]>g1){
+//			g2=g1;
+//			g1=a[i];
+//		}
+//	}
+//	System.out.println("g1 = "+g1);
+//	System.out.println("g2 = "+g2);
+	//-------------- 14 -  Find Missing Number in Array  -----------------------------------
+//	int[] a = {4,5,6,7,9};
+//	Arrays.sort(a);
+//	for(int i=0;i<a.length;i++)
+//	System.out.print(a[i]+" ");
+//	System.out.println(" ");
+//	int first;
+//	first=a[0];
+//	System.out.println(first);
+//	for(int i=1;i<a.length;i++){
+//		if(a[i]==(first+1)){
+//			first=a[i];
+//			System.out.println(a[i]);
+//		}else{
+//			System.out.println("missing = "+(first+1));
+//			break;
+//		}
+//	}
+	//-------------- 15 -  Find Duplicate Number in Array  ---------------------------------
+//	int[] a = {4,5,6,7,8,9,9};
+//	Arrays.sort(a);
+//	for(int i=0;i<a.length;i++){
+//		int n = a[i];
+//		int counter =0;
+//		for(int j=0;j<a.length;j++){
+//			if(n==a[j])
+//				counter++;
+//		}
+//		if(counter>1){
+//			System.out.println("Duplicate Number = "+a[i]);
+//			break;
+//		}
+//	}
+	//-------------- 16 -  Remove first repeated Number in Array  ---------------------------
+//	int c =0;
+//	int[] a = {1,2,3,4,5,1};
+//	Arrays.sort(a);
+//	for(int i=0;i<a.length;i++){
+//		int n = a[i];
+//		int counter = 0;
+//		for(int j=0;j<a.length;j++){
+//			if(a[i]==a[j])
+//				counter++;
+//		}
+//		if(counter>1){
+//			System.out.println("Repeated Number : "+n);
+//			c=n;
+//			break;
+//		}
+//	}
+//	a = ArrayUtils.remove(a, c);
+//	for(int i=0;i<a.length;i++)
+//		System.out.print(a[i]+" ");
+	//-------------- 17 -  Find first non-repeated Number in Array  ------------------------
+//	int[] a = {4,9,4,8,7,8,9};
+//	Arrays.sort(a);
+//	for(int i=0;i<a.length;i++){
+//		int n = a[i];
+//		int counter =0;
+//		for(int j=0;j<a.length;j++){
+//			if(n==a[j])
+//				counter++;
+//		}
+//		if(counter==1){
+//			System.out.println("Non-Repeat Number = "+a[i]);
+//			break;
+//		}
+//	}
+	//-------------- 18 -  Find common element in 2 Array  ----------------------------------
+//	int[] a = {1,2,3,4,5};
+//	Arrays.sort(a);
+//	int[] b = {6,7,2,9,1};
+//	Arrays.sort(b);
+//	for(int i=0;i<a.length;i++){
+//		for(int j=0;j<b.length;j++){
+//			if(a[i]==b[j])
+//				System.out.println("Common Element : "+a[i]);
+//		}
+//	}
+	//-------------- 19 -  Check if element of string is number ----------------------------
+//	String[] ss = {"abc","123","xyz"};
+//	Pattern pattern = Pattern.compile(".*[^0-9].*");
+//	for(int i=0;i<ss.length;i++)
+//	System.out.println("Input "+ss[i]+" is number :"+!pattern.matcher(ss[i]).matches());
+	//-------------- 20 -  Fibonacci Series  ----------------------------------------------
+//	int prev,next,sum=0;
+//	prev=next=1;
+//	System.out.print(prev+" ");
+//	for(int i=1;i<10;i++){
+//		sum = prev + next;
+//		System.out.print(sum+" ");
+//		prev= next;
+//		next = sum;
+//	}
+	//-------------- 21 -  Prime Number  ---------------------------------------------------
+//	boolean flag = true;
+//	Scanner sc = new Scanner(System.in);
+//	System.out.println("Enter number -> ");
+//	int n = sc.nextInt();
+//	for(int i=2;i<n;i++){
+//		int rem = n%i;
+//		if(rem==0){
+//			flag = false;
+//			break;
+//		}
+//	}
+//	if(flag) System.out.println("Prime");
+//	else System.out.println("Not Prime");
+	// -------------- 22 -  Factorial Number  ----------------------------------------------
+//	int fact = 1;
+//	int n = 4;
+//	for(int i=1;i<=n;i++)
+//		fact=fact*i;
+//	System.out.println("Factorial = "+fact);
+} 
+}
+	
