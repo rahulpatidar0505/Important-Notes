@@ -5,16 +5,6 @@
 6.How do you write custom class which is immutable?
 7.Create a Custom class which contains interface in it, custom class should responsible for performing operation. which type of interface will you use to create such a custom class.
 
-8) try{
-}
-catch(ArithmeticException ae){
-}
-catch(Exception e){
-}
-catch(LogicalException le){
-}
-Which catch block will get executed if u get ArithmeticException ?
-Which catch block will get executed if u get LogicalException ?
 
 11) print all the options presnt inside multiple Listbox?
 
@@ -48,17 +38,12 @@ Navigate from parent frame to child frame and click on button And then navigate 
 18. Explain runtime polymorphism and compile time with examples?
 19. Can final/Static method be overloaded?
 20. Can final/Static methods be overridden?
-21. Can we overload main method?
-22. Can we execute a class without a main method?
-23. What is Package?
-24. What is an Abstract Class? Write an example code?
-25. What is an Interface? What is the difference from Abstract class?
+
 26. Can we use private and protect access modified inside a Interface?
 27. Can multiple inheritances support in Interface?
 28. Examples of Abstract and Interface used in selenium project?
 29. What is Exception and what is the base class of it?
-30. What is Final, Finally, Finalize?
-31. What is done in finally block?
+
 32. What is garbage collection java? How it is done?
 33. What is the difference between Throws and Throw?
 34. Gives some examples of java and Selenium?
@@ -73,7 +58,7 @@ Navigate from parent frame to child frame and click on button And then navigate 
 43. How do you use Map collection your project?
 44. Can we have duplicate key value in HasMap?
 45. How to fetch values from a hashmap?
-46. Difference between String, StringBuilder And StringBuffer?
+
 
 Java Programs
 1. Write a Code to generate Random numbers.
@@ -1390,117 +1375,6 @@ Navigate from parent frame to child frame and click on button And then navigate 
 6.How do you write custom class which is immutable?
 7.Create a Custom class which contains interface in it, custom class should responsible for performing operation. which type of interface will you use to create such a custom class.
 
-8) try{
-}
-catch(ArithmeticException ae){
-}
-catch(Exception e){
-}
-catch(LogicalException le){
-}
-Which catch block will get executed if u get ArithmeticException ?
-Which catch block will get executed if u get LogicalException ?
-9) 4 text box with same class name but different id fetch the text present in all text box?
-10) how do you click on checkbox using xpath?
-11) print all the options presnt inside multiple Listbox?
-12) How many ways you findelement in webpage?
-
-Some Selenium Interview Questions which all selenium professional should know.
-
-//Selenium basic question 
-1. Explain the Selenium Architecture
-2. Difference between Selenium-IDE & Selenium RC , WebDriver
-3. Difference between 
-WebDriver driver = new FirefoxDriver()
-FirefoxDriver driver = new FirefoxDriver()
-4. Difference between get(), navigate().to()
-5. What is API , where it is being used
-6. Difference between quit() & close()
-7. How to maximixe & minimize the browser
-8. What is WEbdriver “interface” or Class
-9. What is Super interface for WebDriver
-10. What is WebElement & explain all the Mtds available in WebElement
-11. How many locator is available in Webdriver , & which locator is preferred
-12. How to check whether object is available in GUI  
-13. How to check the text from the UI
-14. How to capture color , height , width , font –size of the Element
-15. How to get the Location of the Webelement
-16. How to check whether object is selected or not ?
-17. How to check whether object is enabled in GUI
-18. How to delete All Cookies
-19. Do we use any constructor in webdriver 
-20. How to compare Image 
-21. How to get the webelemnt height & width
-Question on WebDriver wait statement  
-22. What is Synchronization
-23. How to handle Synchronization wait  available in Webdriver
-24. Which wait statement will be used to wait till page load
-25. How to handle dynamic object
-26. Difference between thread wait , implicitly wait , explicitly wait
-27.  What is fluent wait
-Question DropDown &  keyboard & mouse operation
-28. How to handle dropdown
-29. List out all mtds available in Select class
-30. How to capture all the value from the dropdown
-31. How to capture only Selected value from the dropdown
-32. How to capture only non-selected value from the dropdown
-33. How to how with multiSelect value from the dropdown
-34. How to select all the similar value from the dropdown
-           EG we have multiSelect dropdown, like automation testing , manual testing , sql testing , java , we should all the option which contains “testing” word
-35. How to work with custom select dropdown/ auto suggest dropDown
-36. How to take mouse over operation on the element
-37. How to perform keyboard operation
-38. How to perform “control+c”
-39. Difference between build() & perform()
-40. How to perform drogAndDrop Operation
-41. How to perform rightClick operation
-Question on Window Handling
-42. How to work with new Tab, new Browse-window
-43. How to work with new Tab, new Browse-window with our GetWindowHAnles() mtd
-44. How to handle Alert popup
-45. How to work Calender POP-up
-46. How to work with advitiseMent popup
-47. How to work with SSL pop-up
-48. How to File Download PopUP
-49. How to handle File Upload Pop-up using AutoIT
-50. How to Handle File Uplaod Pop-up usinh ROBOT class
-51. How to Handle Browser Scrool-bar
-52. How to execute java-script
-t
-
-Block- 4 : Jenkins  Interview Question
-96. What is Jenkins
-97. What is the Role of Jenkins in Framework
-98. What is the Advantages of Jenkins 
-99. How to configure Jenkines
-Selenium miscellaneous inetview question
-100. Difference between xpath & css-selector
-101. Where we have used contractor in selenium
-102. How to execute Java-scripts in Selenium , or how to work with browser scroll bar 
-103. How to handle SSL popup in IE
-104. What is use Selenium-Grid
-105. What is the Use desired capabilities
-
-2:What is API testing?
-3:WAP to extract data from excel sheet? What are different ways to extract data from excel sheet?
-4:If combo box is not recognised by UFT and client says to select 3rd option from combo box?
-5:How to fill data on web page after login?
-6:Which frame work you are using? What is data drive frame work?
-7:What is Action? Difference between Action and Function?
-8:Type of function and their details?
-9:Swapping no's without third variable?
-10:To remove white space from string?
-11:Find second highest number from array?
-12:If you written script in UFT, how your team player will access it?
-13:Before developing frame work/Scripting, What parameters you will considered?
-14:Data base connection string?
-15:Why Descriptive programming,Y not record and play? Advantage of Descriptive programming? 
-16:After Data Drive framework, what is main process/scripting to be followed?
-17:Swapping number with 3rd vairable?
-18:How to link UFT with QC?
-19:What is ALM?Can we file defect in it?
-20:End to End flow of your UFT automation,If QC is not using in your automation?
-
 
 
 1. What is a class?
@@ -1924,76 +1798,7 @@ Which catch block will get executed if u get LogicalException ?
 11) print all the options presnt inside multiple Listbox?
 12) How many ways you findelement in webpage?
 
-Some Selenium Interview Questions which all selenium professional should know.
 
-//Selenium basic question 
-1. Explain the Selenium Architecture
-2. Difference between Selenium-IDE & Selenium RC , WebDriver
-3. Difference between 
-WebDriver driver = new FirefoxDriver()
-FirefoxDriver driver = new FirefoxDriver()
-4. Difference between get(), navigate().to()
-5. What is API , where it is being used
-6. Difference between quit() & close()
-7. How to maximixe & minimize the browser
-8. What is WEbdriver “interface” or Class
-9. What is Super interface for WebDriver
-10. What is WebElement & explain all the Mtds available in WebElement
-11. How many locator is available in Webdriver , & which locator is preferred
-12. How to check whether object is available in GUI  
-13. How to check the text from the UI
-14. How to capture color , height , width , font –size of the Element
-15. How to get the Location of the Webelement
-16. How to check whether object is selected or not ?
-17. How to check whether object is enabled in GUI
-18. How to delete All Cookies
-19. Do we use any constructor in webdriver 
-20. How to compare Image 
-21. How to get the webelemnt height & width
-Question on WebDriver wait statement  
-22. What is Synchronization
-23. How to handle Synchronization wait  available in Webdriver
-24. Which wait statement will be used to wait till page load
-25. How to handle dynamic object
-26. Difference between thread wait , implicitly wait , explicitly wait
-27.  What is fluent wait
-Question DropDown &  keyboard & mouse operation
-28. How to handle dropdown
-29. List out all mtds available in Select class
-30. How to capture all the value from the dropdown
-31. How to capture only Selected value from the dropdown
-32. How to capture only non-selected value from the dropdown
-33. How to how with multiSelect value from the dropdown
-34. How to select all the similar value from the dropdown
-           EG we have multiSelect dropdown, like automation testing , manual testing , sql testing , java , we should all the option which contains “testing” word
-35. How to work with custom select dropdown/ auto suggest dropDown
-36. How to take mouse over operation on the element
-37. How to perform keyboard operation
-38. How to perform “control+c”
-39. Difference between build() & perform()
-40. How to perform drogAndDrop Operation
-41. How to perform rightClick operation
-Question on Window Handling
-42. How to work with new Tab, new Browse-window
-43. How to work with new Tab, new Browse-window with our GetWindowHAnles() mtd
-44. How to handle Alert popup
-45. How to work Calender POP-up
-46. How to work with advitiseMent popup
-47. How to work with SSL pop-up
-48. How to File Download PopUP
-49. How to handle File Upload Pop-up using AutoIT
-50. How to Handle File Uplaod Pop-up usinh ROBOT class
-51. How to Handle Browser Scrool-bar
-52. How to execute java-script
-Question Frame Handle
-53. How to work with frame-Window
-54. How to Work with nested Frame
-55. How to work with multiple frame
-56. How many ways to work with frame
-57. How to work frame , when frame does not have id & @name attribute
-
-
-0. How many years of experience you have in automation?
 1. Which webdriver version has started using Gekodriver?
 2. How commands in webdriver are executed internally?What happens when we execute any command in webdriver?
 3. How to zoom in and zoom out in webdriver?
@@ -2053,30 +1858,6 @@ F2F questions:
 •	What is Encapsulation?
 •	What is the difference between interface and abstract class?
 •	What is poly morphism?
-
-
-
-3RD round-maneger
-Gv ur intro with your roles and responsibilities?
-How many bug you hv found on your project?
-Can you please explain flow of your project?
-
-
-4th round- Manager
-Please explain your project architecture with framework with diagram?
-What  are  the technical challanges you have faced?
-If dev not accepted the bug,wat will you do?
-Salary discussion?
- 5th  & 6th  round –maneger
-Repit qsns
-
-
-7th- HR round
-Tell me abt yourself in 3 areas (education,job,hobbies)
-What are the challenges u have faced?
-Some qsn from your hobby?
-Some more qsns?
-
 
 
 
@@ -4258,15 +4039,7 @@ calculate(10.4)
 ----------- >  Cant mark class as abstract and final both ....both have opposite meaning	
 ----------- >  If  any class has any abstract method then it can not be instantiated	
 ----------- >  Abstract method can not be used in normal class ,but used in abstract class	
-4. What is Webdriver?	
-5. What is the difference between assert and verify?	
-6. How would you handle dynamic elements while automating?	
-7. What are profiles in selenium?	
-8. What is the tag used for links?	
-9. Is there any other way to find xpath other than firebug? 	
-10. How would you automate charts?	
-11. Have you worked on BDD? If not can you guess how it would work?	
----->  https://www.youtube.com/watch?v=pD4B839qfos&list=PL_noPv5wmuO_t6yYbPfjwhJFOOcio89tI	
+
 12. Have you worked on a framework? Explain it.	
 13. What is page object model?	
 14. What are the performance parameters that you would check for?	
@@ -4307,9 +4080,7 @@ fluent wait
 testNg annotation	
 depends on 	
 List of question u ask to product owner
-[9:07 PM, 11/16/2018] Rahul: ***** Java Questions ********	
-✅ e-people HR Consultants ✅	
-✅ *Ping 9762542122 Amol to Join✅	
+
 what is interface	
 what is inheritance	
 how to achieve multiple inheritance in java	
