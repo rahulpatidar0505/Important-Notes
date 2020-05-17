@@ -1,0 +1,10 @@
+drag and drop
+double click
+move element
+file download
+keyboard events
+
+/// <reference types="cypress-downloadfile"/>
+
+
+
