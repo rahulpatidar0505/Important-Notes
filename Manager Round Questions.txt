@@ -89,3 +89,91 @@ QA gives approval for moving build to PROD Environment and performs regression t
 
 ==========================================================================================================================================
 
+What if u miss release deadline?
+
+
+
+Situation where u agree/disagree with ur lead/manager/senior member?
+
+
+
+wht you will do if someone is asking for help in ur team?
+
+
+
+suppose u did some POC and it does not worked as plaaned, how u will handle it?
+
+
+If u selected, how u will start or first thing u will do?
+Take knowlodge of domain/product
+Will go through the Framework, best practices followed
+
+
+
+
+Describe when u face unexpected challenge?
+Will talk to my manager/lead, will explain situation and definately wll get some suggetion and try to learn things.
+
+
+
+Do u prefer working in team env or indivisual env?
+Personally i'll love to work with the team and that is how we can build good relation, but if requirement is do work alone than i'm ready to work not a issue.
+
+Do u prefer weekend/late night work?
+Whenever required will do it but unnecesossry will not ask my team to come/work on weekend
+
+
+Any difficult working with manager/team/company?
+Sometime we can disagree with the team member/manager but i always had good relation with my team and leads.
+
+
+how to handle if some member of ur team is not working?
+Talk to that person, understand the situation and try to provide solution and still if is not understaing talk to lead/manager politely and ask him/her to help or talk to that person.
+
+
+What is ur daily activity?
+Will check my email, is there any imp email will reply to those, than my check board and work, will involve in tech talks.
+
+
+As a QA, when u most proud of urself?
+Specially when get good feedback/appriciation from PO/clint, that really motivates me.
+
+
+How to priotise ur work?
+It is always based on project, if we have to do some critical talk 1st, then definately start with it, if some security trainings required on preiority will do that, It's all about project/product the rest of the work.
+
+
+how do u know if shared KT session in worked perfectly?
+Will try to give some basic task /assignment and ask to do it or may be will take reverse KT is positive way and help if reqiured.
+
+
+how u handle difficult customer issue?
+1st will try to investigate, will check why we missed or is there any env issue, is test covered or not if not will try to add in our regression?
+
+
+What excite you to coming to work?
+Meet to my team member, discusssion about some tech talk, share knoledge to each other.
+
+
+Hpow to showcase ur knowledge in interview?
+Share screen and show repo,  how u r executing test via pipeline...and all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
