@@ -124,10 +124,9 @@ Other Questions
 10. Do you have any experience in framework development?
 11. Have you worked in any BDD framework?
 12. Tell me the difficulties you faced in developing automation scripts? Any complex scenarios handled?
-13. Dou you have experience in API Testing
+
 14. What are the structures used in SOAP and REST services?
-15. What is the major difference REST and SOAP?
-16. What is the difference methods used in REST?
+
 17. How you pass your data in SOAP request?
 18. How do verify the responses?
 19. What is WSDL?
@@ -182,29 +181,6 @@ Other Questions
 45. How to fetch values from a hashmap?
 46. Difference between String, StringBuilder And StringBuffer?
 
-Java Programs
-1. Write a Code to generate Random numbers.
-2. Write code to verify a number is perfect number or not.
-3. Fibonacci series from 1 to 10.
-4. Write a program to find a Factorial of a number.
-5. Swap two number s without using the third variable.
-6. Program to find greatest of three numbers.
-7. An Array of numbers given. .Find the largest two number and print it
-8. Reverse a number.
-9. Verify if a given number is a palindrome or not.(same concept of reversing a number)
-10. Armstrong number program.
-11. A String is given remove the white spaces, reverse it and print the only odd position characters.
-12. Check if a string is an anagram of another string.
-13. A string is given make few characters to upper case as asked.
-14. In a String print the occurrence of each character.
-15. In a Statement check how any duplicate strings are there and remove them.
-16. Use split to print each word of a statement.
-17. Find the substring of a String.
-18. Remove duplicate characters from a String and Print it.
-19. Write a code to print the triangle of numbers.
-20. Read and Write file program.
-21.  Calculate power of a number using a while loop
-22. 
 
 SQL
 1. What is primary key and unique key?
@@ -346,41 +322,6 @@ Other Questions
 45. How to fetch values from a hashmap?
 46. Difference between String, StringBuilder And StringBuffer?
 
-Java Programs
-1. Write a Code to generate Random numbers.
-2. Write code to verify a number is perfect number or not.
-3. Fibonacci series from 1 to 10.
-4. Write a program to find a Factorial of a number.
-5. Swap two number s without using the third variable.
-6. Program to find greatest of three numbers.
-7. An Array of numbers given. .Find the largest two number and print it
-8. Reverse a number.
-9. Verify if a given number is a palindrome or not.(same concept of reversing a number)
-10. Armstrong number program.
-11. A String is given remove the white spaces, reverse it and print the only odd position characters.
-12. Check if a string is an anagram of another string.
-13. A string is given make few characters to upper case as asked.
-14. In a String print the occurrence of each character.
-15. In a Statement check how any duplicate strings are there and remove them.
-16. Use split to print each word of a statement.
-17. Find the substring of a String.
-18. Remove duplicate characters from a String and Print it.
-19. Write a code to print the triangle of numbers.
-20. Read and Write file program.
-21.  Calculate power of a number using a while loop
-22. 
-
-SQL
-1. What is primary key and unique key?
-2. How many joins are there any difference?
-3. Difference between join and union?
-4. Select top 3 max salary employees by depts.
-5. Difference between where and having and use of it?
-6. Different types of Date functions?
-7. What are the grouping functions?
-8. Which function is used to get the current date?
-9. What is a sub query?
-10. What is indexing?
 
 Selenium Interview Questions
 1. What are the components of Selenium?
@@ -1426,40 +1367,6 @@ A class is an entity that determines how an object will behave and what the obje
 45. How to fetch values from a hashmap?
 46. Difference between String, StringBuilder And StringBuffer?
 
-Java Programs
-1. Write a Code to generate Random numbers.
-2. Write code to verify a number is perfect number or not.
-3. Fibonacci series from 1 to 10.
-4. Write a program to find a Factorial of a number.
-5. Swap two number s without using the third variable.
-6. Program to find greatest of three numbers.
-7. An Array of numbers given. .Find the largest two number and print it
-8. Reverse a number.
-9. Verify if a given number is a palindrome or not.(same concept of reversing a number)
-10. Armstrong number program.11. A String is given remove the white spaces, reverse it and print the only odd position characters.
-12. Check if a string is an anagram of another string.
-13. A string is given make few characters to upper case as asked.
-14. In a String print the occurrence of each character.
-15. In a Statement check how any duplicate strings are there and remove them.
-16. Use split to print each word of a statement.
-17. Find the substring of a String.
-18. Remove duplicate characters from a String and Print it.
-19. Write a code to print the triangle of numbers.
-20. Read and Write file program.
-21.  Calculate power of a number using a while loop
-22. 
-
-SQL
-1. What is primary key and unique key?
-2. How many joins are there any difference?
-3. Difference between join and union?
-4. Select top 3 max salary employees by depts.
-5. Difference between where and having and use of it?
-6. Different types of Date functions?
-7. What are the grouping functions?
-8. Which function is used to get the current date?
-9. What is a sub query?
-10. What is indexing?
 
 Selenium Interview Questions
 1. What are the components of Selenium?
@@ -1657,42 +1564,6 @@ Shammi Jha
 44. Can we have duplicate key value in HasMap?
 45. How to fetch values from a hashmap?
 46. Difference between String, StringBuilder And StringBuffer?
-
-Java Programs
-1. Write a Code to generate Random numbers.
-2. Write code to verify a number is perfect number or not.
-3. Fibonacci series from 1 to 10.
-4. Write a program to find a Factorial of a number.
-5. Swap two number s without using the third variable.
-6. Program to find greatest of three numbers.
-7. An Array of numbers given. .Find the largest two number and print it
-8. Reverse a number.
-9. Verify if a given number is a palindrome or not.(same concept of reversing a number)
-10. Armstrong number program
-11. A String is given remove the white spaces, reverse it and print the only odd position characters.
-12. Check if a string is an anagram of another string.
-13. A string is given make few characters to upper case as asked.
-14. In a String print the occurrence of each character.
-15. In a Statement check how any duplicate strings are there and remove them.
-16. Use split to print each word of a statement.
-17. Find the substring of a String.
-18. Remove duplicate characters from a String and Print it.
-19. Write a code to print the triangle of numbers.
-20. Read and Write file program.
-21.  Calculate power of a number using a while loop
-22. 
-
-SQL
-1. What is primary key and unique key?
-2. How many joins are there any difference?
-3. Difference between join and union?
-4. Select top 3 max salary employees by depts.
-5. Difference between where and having and use of it?
-6. Different types of Date functions?
-7. What are the grouping functions?
-8. Which function is used to get the current date?
-9. What is a sub query?
-10. What is indexing?
 
 
 23. There are 4 browsers open you have no idea where the required element is present . What will be your approach to find that element?
@@ -3532,20 +3403,6 @@ What tool you have used for defect tracking??? Any other tool you have use dQues
 20. Read and Write file program.
 21.  Calculate power of a number using a while loop
 22. 
-
-#SQL
-
-1. What is primary key and unique key?
-2. How many joins are there any difference?
-3. Difference between join and union?
-4. Select top 3 max salary employees by depts.
-5. Difference between where and having and use of it?
-6. Different types of Date functions?
-7. What are the grouping functions?
-8. Which function is used to get the current date?
-9. What is a sub query?
-10. What is indexing?
-
 
 
 81. If a page containing 1000 of images how you select the 100th image?
